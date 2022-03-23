@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="practice2.Createopporutnity"/>
+      <class name="practice2.CreateCampaign"/>
+      <class name="practice2.CreateContactWithSmokeAndRegg"/>
+      <class name="practice2.CreateOrgWithSmokeAndRegg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
